@@ -175,9 +175,9 @@ class WebViewFeature {
   static const START_SAFE_BROWSING =
       WebViewFeature._internal('START_SAFE_BROWSING', 'START_SAFE_BROWSING');
 
-  ///Feature for [isFeatureSupported]. This feature covers [InAppWebViewSettings.willSuppressErrorPage].
+  /*///Feature for [isFeatureSupported]. This feature covers [InAppWebViewSettings.willSuppressErrorPage].
   static const SUPPRESS_ERROR_PAGE =
-      WebViewFeature._internal('SUPPRESS_ERROR_PAGE', 'SUPPRESS_ERROR_PAGE');
+      WebViewFeature._internal('SUPPRESS_ERROR_PAGE', 'SUPPRESS_ERROR_PAGE');*/
 
   ///
   static const TRACING_CONTROLLER_BASIC_USAGE = WebViewFeature._internal(
@@ -497,9 +497,9 @@ class AndroidWebViewFeature {
   static const START_SAFE_BROWSING = AndroidWebViewFeature._internal(
       'START_SAFE_BROWSING', 'START_SAFE_BROWSING');
 
-  ///Feature for [isFeatureSupported]. This feature covers [InAppWebViewSettings.willSuppressErrorPage].
+  /*///Feature for [isFeatureSupported]. This feature covers [InAppWebViewSettings.willSuppressErrorPage].
   static const SUPPRESS_ERROR_PAGE = AndroidWebViewFeature._internal(
-      'SUPPRESS_ERROR_PAGE', 'SUPPRESS_ERROR_PAGE');
+      'SUPPRESS_ERROR_PAGE', 'SUPPRESS_ERROR_PAGE');*/
 
   ///
   static const TRACING_CONTROLLER_BASIC_USAGE = AndroidWebViewFeature._internal(
@@ -589,7 +589,7 @@ class AndroidWebViewFeature {
     AndroidWebViewFeature.SERVICE_WORKER_SHOULD_INTERCEPT_REQUEST,
     AndroidWebViewFeature.SHOULD_OVERRIDE_WITH_REDIRECTS,
     AndroidWebViewFeature.START_SAFE_BROWSING,
-    AndroidWebViewFeature.SUPPRESS_ERROR_PAGE,
+    /*AndroidWebViewFeature.SUPPRESS_ERROR_PAGE,*/
     AndroidWebViewFeature.TRACING_CONTROLLER_BASIC_USAGE,
     AndroidWebViewFeature.VISUAL_STATE_CALLBACK,
     AndroidWebViewFeature.WEB_MESSAGE_CALLBACK_ON_MESSAGE,
